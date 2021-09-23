@@ -7,6 +7,9 @@
 .card-title {
     text-align: center;
     color: #1c2385;
-    font-family:fantasy;
-    
+    font-family:fantasy; 
+}
+
+.btn-lg {
+    border-radius: 20px;
 }
