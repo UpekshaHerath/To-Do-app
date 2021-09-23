@@ -1,0 +1,12 @@
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    text-align: center;
+    color: #1c2385;
+    font-family:fantasy;
+    
+}
