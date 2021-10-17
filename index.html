@@ -9,19 +9,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card" style="width: 50rem;">
-        <img class="card-img-top; img-responsive" style="height: 17rem; width: auto;" src="images/todo_CoverPhoto.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h1 class="card-title">To-Do LIST MAKER</h1>
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px; font-size:xx-large"></textarea>
-            <label for="floatingTextarea">Insert To-Do item</label>
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+          <!--The TO_DO LIST MAKER startes-->
+          <div class="card">
+            <div class="card-body">
+                  <h1 class="card-title" class='col-3'>To-Do LIST MAINTAINER</h1>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px; font-size:large"></textarea>
+                <label for="floatingTextarea" id="to-do-label">Insert To-Do item</label>
+              </div>
+              <br>
+             <button class="btn btn-outline-info btn-primary btn-sm" id="add_button"> Add </button>
+            </div>
           </div>
-          <br>
-        <button class="btn btn-outline-info btn-primary btn-lg" id="add_button"> Add </button>
+          <!--TO-DO LIST MAKER is ended-->
         </div>
-      </div>
+        <div class="col-12">
+          <!--TO-DO elements adding area started-->
+          <div id="todo_list" class="todo">
+
+          </div>    
+          <!--TO-DO elements adding area ended-->
+        </div>
+        <div class="col-4"> 
+            
+        </div>
+    </div>
+</div>
     
+    
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="functions.js"></script>
 </body>

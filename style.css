@@ -8,8 +8,14 @@
     text-align: center;
     color: #1c2385;
     font-family:fantasy; 
+    font-size: 2rem;
 }
 
-.btn-lg {
+.btn-sm {
     border-radius: 20px;
+    width: 100px;
 }
+
+.todo > div {
+    color : blue;
+}   
