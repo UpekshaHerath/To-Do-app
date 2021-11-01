@@ -1,0 +1,16 @@
+Used Bootstrap "container" to add responsive features to the application
+    used col-1 to col-12 classes to div elements.
+
+1. set up environment
+    1. npm init
+    2. npm install experss
+    3. npm install mongodb
+    4. npm install mongoose
+    5. npm install nodemon --save-dev(this is only for the development purpose. After put to the server we do not change and restart the server.)
+    6. go to package.json and ==> change scrits as => "start": "nodemon app.js"
+
+client have to sed a request first
+GET : http://localhost:9000/aliens
+GET : http://localhost:9000/aliens/<id>
+POST : http://localhost:9000/aliens
+PATCH : http://localhost:9000/aliens/<id>

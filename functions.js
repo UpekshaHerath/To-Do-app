@@ -7,6 +7,7 @@ add_button.onclick = function() {
     todo_listCreate();
 }
 
+//This function will add a new element for a todo-list idem after clicking the "add" button.
 function todo_listCreate() {
     //create a paragraph element to add as the todo item
     let node = document.createElement("p");
