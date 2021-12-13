@@ -21,8 +21,19 @@ router.post('/', async (req, res) => {
         const todo1 = await newToDoItem.save()
         res.json(todo1)
     } catch(err) {
-        res.send("Error" + err)
+        res.send("Error " + err)
     }
 })
 
+router.delete('/', async (req, res) => {
+    const id = req.body.id
+    try {
+        TodoItem.findByIdAndDelete(id, () => {
+            res.send("The message of " + id + "was deleted")
+        })
+
+    } catch (err) {
+        res.send("Error " + err)
+    }
+})
 module.exports = router
