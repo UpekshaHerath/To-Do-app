@@ -14,7 +14,7 @@ router.get('/', async (req, res) => {
 
 router.post('/', async (req, res) => {
     const newToDoItem = new TodoItem({
-        message: req.params.message
+        message: req.body.message
     })
 
     try {
